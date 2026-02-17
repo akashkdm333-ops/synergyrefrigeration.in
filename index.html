@@ -1,16 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Synergy Refrigeration</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Synergy Refrigeration | AC Sales</title>
+
+<style>
+
+/* ===== BASIC ===== */
+
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:#f4f6f9;
+color:#333;
+}
+
+.container{
+width:90%;
+max-width:1200px;
+margin:auto;
+}
+
+/* ===== NAVBAR ===== */
+
+nav{
+background:#fff;
+padding:15px 0;
+box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+color:#0077ff;
+}
+
+/* ===== HERO ===== */
+
+.hero{
+background:linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)),
+url("https://images.unsplash.com/photo-1581093588401-22f3c1c92e02");
+background-size:cover;
+background-position:center;
+color:white;
+text-align:center;
+padding:120px 20px;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+.hero button{
+background:#0077ff;
+border:none;
+padding:14px 28px;
+color:white;
+font-size:16px;
+border-radius:6px;
+cursor:pointer;
+}
+
+/* ===== CATEGORY ===== */
+
+.categories{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+margin:50px auto;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 3px 12px rgba(0,0,0,0.08);
+}
+
+/* ===== PRODUCTS ===== */
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.product{
+background:white;
+padding:20px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 3px 12px rgba(0,0,0,0.08);
+}
+
+.product button{
+background:#0077ff;
+border:none;
+color:white;
+padding:10px 20px;
+border-radius:5px;
+cursor:pointer;
+}
+
+/* ===== CTA ===== */
+
+.cta{
+background:#0077ff;
+color:white;
+text-align:center;
+padding:50px 20px;
+margin-top:50px;
+}
+
+/* ===== FOOTER ===== */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+</style>
 </head>
+
 <body>
 
-  <h1>Synergy Refrigeration</h1>
-  <p>Website under construction 🚧</p>
+<!-- NAVBAR -->
 
-  <script src="script.js"></script>
+<nav>
+<div class="container">
+<div class="logo">Synergy Refrigeration</div>
+</div>
+</nav>
+
+<!-- HERO -->
+
+<section class="hero">
+<h1>Premium Air Conditioners for Your Home</h1>
+<p>Retail AC Sales • Genuine Products • Best Deals</p>
+<button>View Products</button>
+</section>
+
+<!-- CATEGORY -->
+
+<div class="container">
+<div class="categories">
+
+<div class="card">
+<h3>Split AC</h3>
+<p>Modern cooling with energy efficiency.</p>
+</div>
+
+<div class="card">
+<h3>Window AC</h3>
+<p>Budget-friendly cooling solutions.</p>
+</div>
+
+<div class="card">
+<h3>Commercial AC</h3>
+<p>Powerful cooling for larger spaces.</p>
+</div>
+
+</div>
+</div>
+
+<!-- PRODUCTS -->
+
+<div class="container">
+<h2>Featured Models</h2>
+
+<div class="products">
+
+<div class="product">
+<h3>Voltas Split AC</h3>
+<p>High performance cooling.</p>
+<button>Enquiry</button>
+</div>
+
+<div class="product">
+<h3>Voltas Window AC</h3>
+<p>Compact and powerful.</p>
+<button>Enquiry</button>
+</div>
+
+<div class="product">
+<h3>Voltas Inverter AC</h3>
+<p>Energy saving technology.</p>
+<button>Enquiry</button>
+</div>
+
+</div>
+</div>
+
+<section class="cta">
+<h2>Looking for Best AC Deals?</h2>
+<p>Contact us today for retail pricing.</p>
+</section>
+
+<footer>
+<p>© 2026 Synergy Refrigeration</p>
+</footer>
+
 </body>
 </html>
