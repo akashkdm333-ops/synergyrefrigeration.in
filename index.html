@@ -91,13 +91,6 @@ border-radius:8px;
 cursor:pointer;
 }
 
-<!-- VOLTAS BRAND STRIP -->
-
-<section class="brand-strip">
-  <img src="assets/voltas-logo.png" alt="Voltas">
-  <span>Authorized Voltas AC Retail Partner</span>
-</section>
-
 /* ===== PRODUCTS ===== */
 
 .section-title{
@@ -177,6 +170,20 @@ font-size:18px;
 text-decoration:none;
 box-shadow:0 4px 12px rgba(0,0,0,0.2);
 }
+  
+.brand-strip{
+background:#fff;
+padding:15px;
+display:flex;
+justify-content:center;
+align-items:center;
+gap:15px;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+
+.brand-strip img{
+height:30px;
+}
 
 </style>
 </head>
@@ -200,15 +207,22 @@ box-shadow:0 4px 12px rgba(0,0,0,0.2);
 </div>
 </section>
 
+<!-- VOLTAS BRAND STRIP -->
+
+<section class="brand-strip">
+  <img src="assets/voltas-logo.png" alt="Voltas">
+  <span>Authorized Voltas AC Partner</span>
+</section>
+
 <!-- PRODUCTS -->
 
 <div class="products">
 
 <div class="product">
-<img src="assets/split.jpg" alt="Split AC">
+<img src="assets/noninverter.jpg" alt="Non Inverter AC">
 <div class="product-content">
-<h3>Split AC</h3>
-<button onclick="openPopup('Split AC')">Enquiry</button>
+<h3>Non Inverter AC</h3>
+<button onclick="openPopup('Non Inverter AC')">Enquiry</button>
 </div>
 </div>
 
@@ -221,10 +235,10 @@ box-shadow:0 4px 12px rgba(0,0,0,0.2);
 </div>
 
 <div class="product">
-<img src="assets/noninverter.jpg" alt="Non Inverter AC">
+<img src="assets/inverter.jpg" alt=" Inverter AC">
 <div class="product-content">
-<h3>Non-Inverter AC</h3>
-<button onclick="openPopup('Non-Inverter AC')">Enquiry</button>
+<h3>Inverter AC</h3>
+<button onclick="openPopup('Inverter AC')">Enquiry</button>
 </div>
 </div>
 
@@ -234,7 +248,7 @@ box-shadow:0 4px 12px rgba(0,0,0,0.2);
 
 <section class="cta">
 <h2>Looking for Best AC Deals?</h2>
-<p>Contact Synergy Refrigeration for retail pricing.</p>
+<p>Contact Synergy Refrigeration for pricing.</p>
 </section>
 
 <!-- FOOTER -->
