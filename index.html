@@ -111,22 +111,22 @@ border-radius:12px;
 overflow:hidden;
 box-shadow:0 5px 20px rgba(0,0,0,0.08);
 transition:0.3s;
-}
-
-.product:hover{
-transform:translateY(-6px);
+display:flex;
+flex-direction:column;
 }
 
 .product img{
 width:100%;
-height:200px;
+height:180px;
 object-fit:contain;
-background:#fff;
+background:white;
+padding:15px;
 }
 
 .product-content{
-padding:20px;
+padding:18px;
 text-align:center;
+margin-top:auto;
 }
 
 .product button{
@@ -265,12 +265,12 @@ cursor:pointer;
 
 <div class="products">
   
-<div class="products">
-<img src="assets/noninverter.jpg" alt="Non Inverter AC">
-<div class="product-content">
-<h3>Non Inverter AC</h3>
-<button onclick="openPopup('Non Inverter AC')">Enquiry</button>
-</div>
+<div class="product">
+  <img src="assets/noninverter.jpg" alt="Non Inverter AC">
+  <div class="product-content">
+    <h3>Non Inverter AC</h3>
+    <button onclick="openPopup('Non Inverter AC')">Enquiry</button>
+  </div>
 </div>
 
 <div class="product">
