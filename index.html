@@ -91,54 +91,43 @@ cursor:pointer;
 
 /* ===== PRODUCTS ===== */
 
-.section-title{
-text-align:center;
-margin:60px 0 30px;
-font-size:28px;
-}
-
 .products{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:20px;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+margin-top:30px;
 }
 
 .product{
 background:white;
 border-radius:12px;
-overflow:hidden;
 box-shadow:0 5px 20px rgba(0,0,0,0.08);
+padding:25px 20px 28px;
+text-align:center;
 transition:0.3s;
-display:flex;
-flex-direction:column;
+}
+
+.product:hover{
+transform:translateY(-5px);
 }
 
 .product img{
-height:190px;
-display:flex;
-align-items:center;
-justify-content:center;
-background:#fff;
-padding:15px;
+width:100%;
+height:170px;
+object-fit:contain;
+margin-bottom:15px;
 }
 
-.product-img img{
-max-width:100%;
-max-height100%;
-object-fit:contain;
-}
-  
-.product-content{
-padding:18px;
-text-align:center;
-margin-top:auto;
+.product h3{
+margin:10px 0 12px;
+font-size:18px;
 }
 
 .product button{
 background:#0077ff;
 border:none;
 color:white;
-padding:10px 20px;
+padding:9px 18px;
 border-radius:6px;
 cursor:pointer;
 }
@@ -272,39 +261,27 @@ cursor:pointer;
 
   <div class="product-image">
     <img src="assets/noninverter.jpg" alt="Non Inverter AC">
-  </div>
-
-  <div class="product-content">
     <h3>Non Inverter AC</h3>
     <button onclick="openPopup('Non Inverter AC')">Enquiry</button>
   </div>
-
 </div>
 
 <div class="product">
 
   <div class="product-image">
     <img src="assets/window.jpg" alt="Window AC">
-  </div>
-
-  <div class="product-content">
     <h3>Window AC</h3>
     <button onclick="openPopup('Window AC')">Enquiry</button>
-  </div>
-
+    </div>
 </div>
   
 <div class="product">
 
   <div class="product-image">
     <img src="assets/nverter.jpg" alt="Inverter AC">
-  </div>
-
-  <div class="product-content">
     <h3>Inverter AC</h3>
     <button onclick="openPopup('Inverter AC')">Enquiry</button>
   </div>
-
 </div>
 
 
