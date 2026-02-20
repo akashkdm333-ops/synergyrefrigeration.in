@@ -114,13 +114,20 @@ flex-direction:column;
 }
 
 .product img{
-width:100%;
-height:180px;
-object-fit:contain;
-background:white;
+height:190px;
+display:flex;
+align-items:center;
+justify-content:center;
+background:#fff;
 padding:15px;
 }
 
+.product-img img{
+max-width:100%;
+max-height100%;
+object-fit:contain;
+}
+  
 .product-content{
 padding:18px;
 text-align:center;
@@ -261,31 +268,42 @@ cursor:pointer;
   </div>
 </div>
 
-<div class="products">
-  
 <div class="product">
-  <img src="assets/noninverter.jpg" alt="Non Inverter AC">
+
+  <div class="product-image">
+    <img src="assets/noninverter.jpg" alt="Non Inverter AC">
+  </div>
+
   <div class="product-content">
     <h3>Non Inverter AC</h3>
     <button onclick="openPopup('Non Inverter AC')">Enquiry</button>
   </div>
+
 </div>
 
 <div class="product">
-<img src="assets/window.jpg" alt="Window AC">
-<div class="product-content">
-<h3>Window AC</h3>
-<button onclick="openPopup('Window AC')">Enquiry</button>
-</div>
-</div>
 
+  <div class="product-image">
+    <img src="assets/window.jpg" alt="Window AC">
+  </div>
+
+  <div class="product-content">
+    <h3>Window AC</h3>
+    <button onclick="openPopup('Window AC')">Enquiry</button>
+  </div>
+
+</div>
+  
 <div class="product">
-<img src="assets/inverter.jpg" alt=" Inverter AC">
-<div class="product-content">
-<h3>Inverter AC</h3>
-<button onclick="openPopup('Inverter AC')">Enquiry</button>
-</div>
-</div>
+
+  <div class="product-image">
+    <img src="assets/noninverter.jpg" alt="Non Inverter AC">
+  </div>
+
+  <div class="product-content">
+    <h3>Non Inverter AC</h3>
+    <button onclick="openPopup('Non Inverter AC')">Enquiry</button>
+  </div>
 
 </div>
 
