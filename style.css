@@ -5,3 +5,38 @@ body {
   text-align: center;
   padding-top: 100px;
 }
+/* ===== PRODUCTS GRID ===== */
+
+.products{
+display:grid !important;
+grid-template-columns:repeat(3, 1fr) !important;
+gap:25px;
+margin-top:30px;
+align-items:stretch;
+}
+
+/* ===== PRODUCT CARD ===== */
+
+.product{
+background:white;
+border-radius:12px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+padding:25px 20px 30px;
+text-align:center;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:flex-start;
+min-height:300px;
+}
+
+.product img{
+width:100%;
+height:160px;
+object-fit:contain;
+margin-bottom:15px;
+}
+
+.product h3{
+margin:0 0 12px;
+}
