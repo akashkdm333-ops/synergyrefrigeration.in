@@ -41,7 +41,16 @@ margin-bottom:15px;
 margin:0 0 12px;
 }
 
+.navbar{
+background:white;
+display:flex;
+justify-content:center;   /* center */
+align-items:center;
+padding:18px 0;
+box-shadow:0 2px 12px rgba(0,0,0,0.06);
+}
+
 .logo img{
-height:40px;
+height:70px;   /* BIGGER */
 width:auto;
 }
