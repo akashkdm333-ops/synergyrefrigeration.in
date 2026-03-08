@@ -98,3 +98,30 @@ filter:none;
 opacity:1;
 transform:scale(1.1);
 }
+
+/* COMMERCIAL SECTION */
+
+.commercial{
+padding:70px 5%;
+background:#f6f8fb;
+}
+
+.commercial-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+max-width:1200px;
+margin:auto;
+}
+
+.commercial-card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
+text-align:center;
+}
+
+.commercial-card h3{
+margin-bottom:10px;
+}
