@@ -215,7 +215,7 @@ width:100%;
 }
 
 .logo-center img{
-height:50px;   /* size bada */
-max-width:250px;
+height:30px;   /* size bada */
+max-width:150px;
 object-fit:contain;
 }
