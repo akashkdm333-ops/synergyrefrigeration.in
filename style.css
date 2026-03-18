@@ -219,3 +219,7 @@ height:90px;   /* FINAL SIZE */
 width:auto;
 display:block;
 }
+
+.logo-center img{
+height:200px;
+}
