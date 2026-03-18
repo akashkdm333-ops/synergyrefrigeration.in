@@ -201,3 +201,21 @@ font-size:28px;
 }
 
 }
+/* ===== LOGO CENTER FIX ===== */
+
+nav{
+justify-content:center;   /* center align */
+}
+
+.logo-center{
+display:flex;
+justify-content:center;
+align-items:center;
+width:100%;
+}
+
+.logo-center img{
+height:70px;   /* size bada */
+max-width:250px;
+object-fit:contain;
+}
