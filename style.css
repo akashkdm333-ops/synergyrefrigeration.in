@@ -1,47 +1,104 @@
-body {
-  font-family: Arial, sans-serif;
-  background: #0f172a;
-  color: #e5e7eb;
-  text-align: center;
-  padding-top: 100px;
-}
-/* ===== PRODUCTS GRID ===== */
+/* ===== GLOBAL ===== */
 
-.products{
-display:grid !important;
-grid-template-columns:repeat(3, 1fr) !important;
-gap:25px;
-margin-top:30px;
-align-items:stretch;
-}
-
-/* PRODUCT CATEGORIES */
-
-.categories{
-padding:70px 5%;
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
 background:#f6f8fb;
+color:#222;
 }
+
+/* ===== NAVBAR ===== */
+
+nav{
+background:white;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 5%;
+box-shadow:0 2px 12px rgba(0,0,0,0.06);
+}
+
+.logo img{
+height:45px;
+}
+
+/* ===== HERO ===== */
+
+.hero{
+min-height:420px;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+background:
+linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url("assets/hero.png");
+background-size:cover;
+background-position:center;
+padding:100px 20px;
+}
+
+.hero h1{
+font-size:42px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+.hero button{
+margin-top:20px;
+padding:14px 28px;
+background:#0077ff;
+border:none;
+color:white;
+border-radius:8px;
+cursor:pointer;
+}
+
+/* ===== BRAND STRIP ===== */
+
+.brand-strip{
+background:#fff;
+padding:18px;
+display:flex;
+justify-content:center;
+align-items:center;
+gap:15px;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
+
+.brand-strip img{
+height:40px;
+}
+
+/* ===== SECTION TITLE ===== */
 
 .section-title{
 text-align:center;
-font-size:30px;
-margin-bottom:40px;
+font-size:28px;
+margin:50px 0 30px;
 }
+
+/* ===== PRODUCT CATEGORIES ===== */
 
 .category-grid{
 display:grid;
 grid-template-columns:repeat(3,1fr);
-gap:30px;
-max-width:1200px;
+gap:25px;
+max-width:1100px;
 margin:auto;
+padding:0 20px;
 }
 
 .category-card{
 background:white;
+padding:25px;
 border-radius:12px;
 box-shadow:0 5px 20px rgba(0,0,0,0.08);
 text-align:center;
-padding:25px;
 transition:0.3s;
 }
 
@@ -51,77 +108,96 @@ transform:translateY(-5px);
 
 .category-card img{
 width:100%;
-height:180px;
+height:160px;
 object-fit:contain;
-margin-bottom:15px;
+margin-bottom:10px;
 }
 
 .category-card h3{
-margin-bottom:15px;
+margin-bottom:10px;
 }
 
 .category-card button{
 background:#0077ff;
 color:white;
 border:none;
-padding:10px 20px;
+padding:10px 18px;
 border-radius:6px;
 cursor:pointer;
 }
 
-/* BRAND SECTION */
-
-.brands{
-padding:60px 5%;
-background:white;
-}
-
-.brand-grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(120px,1fr));
-gap:40px;
-align-items:center;
-max-width:1100px;
-margin:auto;
-}
-
-.brand-grid img{
-max-width:120px;
-margin:auto;
-filter:grayscale(100%);
-opacity:0.8;
-transition:0.3s;
-}
-
-.brand-grid img:hover{
-filter:none;
-opacity:1;
-transform:scale(1.1);
-}
-
-/* COMMERCIAL SECTION */
+/* ===== COMMERCIAL ===== */
 
 .commercial{
-padding:70px 5%;
-background:#f6f8fb;
+padding:60px 5%;
 }
 
 .commercial-grid{
 display:grid;
 grid-template-columns:repeat(3,1fr);
 gap:25px;
-max-width:1200px;
+max-width:1100px;
 margin:auto;
 }
 
 .commercial-card{
 background:white;
-padding:25px;
+padding:20px;
 border-radius:12px;
 box-shadow:0 5px 20px rgba(0,0,0,0.08);
 text-align:center;
 }
 
-.commercial-card h3{
-margin-bottom:10px;
+/* ===== FOOTER ===== */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:40px;
+}
+
+/* ===== WHATSAPP BUTTON ===== */
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:14px 18px;
+border-radius:50px;
+text-decoration:none;
+box-shadow:0 4px 12px rgba(0,0,0,0.2);
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media(max-width:900px){
+
+.category-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+.commercial-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+@media(max-width:600px){
+
+.category-grid{
+grid-template-columns:1fr;
+}
+
+.commercial-grid{
+grid-template-columns:1fr;
+}
+
+.hero h1{
+font-size:28px;
+}
+
 }
