@@ -198,24 +198,24 @@ font-size:28px;
 
 }
 
-/* ===== FORCE LOGO CENTER FIX ===== */
+/* ===== NAVBAR CENTER + SIZE ===== */
 
 .navbar{
-display:flex !important;
-justify-content:center !important;
-align-items:center !important;
-padding:20px 0 !important;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:15px 0;
 }
 
 .logo-center{
-width:100% !important;
-display:flex !important;
-justify-content:center !important;
+display:flex;
+justify-content:center;
+align-items:center;
+width:100%;
 }
 
 .logo-center img{
-height:85px !important;
-width:auto !important;
+height:90px;   /* FINAL SIZE */
+width:auto;
 display:block;
-margin:auto;
 }
