@@ -4,16 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Synergy Refrigeration | Premium AC Sales</title>
+<title>Synergy Refrigeration | Cooling Equipment</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-
-<link rel="stylesheet" href="style.css">
 
 <style>
 
 /* ===== GLOBAL ===== */
-
 body{
 margin:0;
 font-family:'Poppins',sans-serif;
@@ -21,43 +18,21 @@ background:#f6f8fb;
 color:#222;
 }
 
-.container{
-width:90%;
-max-width:1200px;
-margin:auto;
-}
-
 /* ===== NAVBAR ===== */
-
 nav{
-position:sticky;
-top:0;
 background:white;
 display:flex;
 justify-content:space-between;
 align-items:center;
 padding:15px 5%;
 box-shadow:0 2px 12px rgba(0,0,0,0.06);
-z-index:1000;
 }
 
-.logo{
-font-size:22px;
-font-weight:700;
-color:#0077ff;
-}
-
-.nav-btn{
-background:#0077ff;
-color:white;
-padding:10px 18px;
-border-radius:6px;
-border:none;
-cursor:pointer;
+.logo img{
+height:45px;
 }
 
 /* ===== HERO ===== */
-
 .hero{
 min-height:420px;
 display:flex;
@@ -66,7 +41,7 @@ justify-content:center;
 text-align:center;
 color:white;
 background:
-linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)),
+linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
 url("assets/hero.png");
 background-size:cover;
 background-position:center;
@@ -74,7 +49,7 @@ padding:100px 20px;
 }
 
 .hero h1{
-font-size:48px;
+font-size:42px;
 margin-bottom:10px;
 }
 
@@ -85,7 +60,6 @@ font-size:18px;
 .hero button{
 margin-top:20px;
 padding:14px 28px;
-font-size:16px;
 background:#0077ff;
 border:none;
 color:white;
@@ -93,93 +67,92 @@ border-radius:8px;
 cursor:pointer;
 }
 
-<section class="brands">
+/* ===== BRAND STRIP ===== */
+.brand-strip{
+background:#fff;
+padding:18px;
+display:flex;
+justify-content:center;
+align-items:center;
+gap:15px;
+box-shadow:0 2px 10px rgba(0,0,0,0.05);
+}
 
-<h2 class="section-title">Trusted Brands</h2>
+.brand-strip img{
+height:40px;
+}
 
-<div class="brand-grid">
+/* ===== SECTION TITLE ===== */
+.section-title{
+text-align:center;
+font-size:28px;
+margin:50px 0 30px;
+}
 
-<img src="assets/brands/voltas.png" alt="Voltas">
-<img src="assets/brands/bluestar.png" alt="Blue Star">
-<img src="assets/brands/haier.png" alt="Haier">
-<img src="assets/brands/kenstar.png" alt="Kenstar">
-<img src="assets/brands/trufrost.png" alt="Trufrost">
-<img src="assets/brands/icemake.png" alt="Ice Make">
-<img src="assets/brands/rockwell.png" alt="Rockwell">
-<img src="assets/brands/elanpro.png" alt="Elanpro">
-
-</div>
-
-</section>
-  
-/* ===== PRODUCTS ===== */
-
-.products{
+/* ===== CATEGORY GRID ===== */
+.category-grid{
 display:grid;
 grid-template-columns:repeat(3,1fr);
 gap:25px;
-margin-top:30px;
+max-width:1100px;
+margin:auto;
 }
 
-.product{
+.category-card{
 background:white;
+padding:25px;
 border-radius:12px;
 box-shadow:0 5px 20px rgba(0,0,0,0.08);
-padding:25px 20px 28px;
 text-align:center;
-transition:0.3s;
-display:flex;
-flex-direction:column;
-justify-content:space-between;
-min-height:300px;   /* equal block height */
 }
 
-.product:hover{
-transform:translateY(-5px);
-}
-
-.product img{
+.category-card img{
 width:100%;
 height:160px;
 object-fit:contain;
 margin-bottom:10px;
 }
 
-.product h3{
-margin:10px 0 12px;
-font-size:18px;
-}
-
-.product button{
+.category-card button{
 background:#0077ff;
-border:none;
 color:white;
-padding:9px 18px;
+border:none;
+padding:10px 18px;
 border-radius:6px;
 cursor:pointer;
 }
 
-/* ===== CTA ===== */
+/* ===== COMMERCIAL ===== */
+.commercial{
+padding:60px 5%;
+}
 
-.cta{
-background:#0077ff;
-color:white;
+.commercial-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:25px;
+max-width:1100px;
+margin:auto;
+}
+
+.commercial-card{
+background:white;
+padding:20px;
+border-radius:12px;
+box-shadow:0 5px 20px rgba(0,0,0,0.08);
 text-align:center;
-padding:60px 20px;
-margin-top:60px;
 }
 
 /* ===== FOOTER ===== */
-
 footer{
 background:#111;
 color:white;
 text-align:center;
 padding:25px;
+margin-top:40px;
 }
 
-/* ===== WHATSAPP FLOAT BUTTON ===== */
-
+/* ===== WHATSAPP ===== */
 .whatsapp{
 position:fixed;
 bottom:20px;
@@ -188,70 +161,7 @@ background:#25D366;
 color:white;
 padding:14px 18px;
 border-radius:50px;
-font-size:18px;
 text-decoration:none;
-box-shadow:0 4px 12px rgba(0,0,0,0.2);
-}
-  
-.brand-strip{
-background:#fff;
-padding:18px 10px;
-display:flex;
-justify-content:center;
-align-items:center;
-gap:20px;
-box-shadow:0 2px 10px rgba(0,0,0,0.05);
-}
-
-.brand-strip img{
-height:45px;
-filter:drop-shadow(0 2px 3px rgba(0,0,0,0.2));
-}
-
-.brand-strip span{
-font-size:16px;
-font-weight:500;
-color:#333;
-}
-
-.popup{
-display:none;
-position:fixed;
-top:0;
-left:0;
-width:100%;
-height:100%;
-background:rgba(0,0,0,0.6);
-justify-content:center;
-align-items:center;
-z-index:2000;
-}
-
-.popup-box{
-background:white;
-padding:30px;
-border-radius:12px;
-text-align:center;
-width:90%;
-max-width:350px;
-}
-
-.popup-box a{
-display:inline-block;
-margin:15px 0;
-background:#25D366;
-color:white;
-padding:12px 20px;
-border-radius:6px;
-text-decoration:none;
-}
-
-.popup-box button{
-background:#eee;
-border:none;
-padding:8px 15px;
-border-radius:6px;
-cursor:pointer;
 }
 
 </style>
@@ -260,152 +170,101 @@ cursor:pointer;
 <body>
 
 <!-- NAVBAR -->
-
-<nav class="navbar">
-  <div class="logo">
-    <img src="assets/logo.png" alt="Synergy Enterprises">
-  </div>
+<nav>
+<div class="logo">
+<img src="assets/logo.png">
+</div>
 </nav>
 
 <!-- HERO -->
-
 <section class="hero">
-  <div>
-    <h1>Premium Home & Commercial Cooling Equipment</h1>
-    <p>Authorized Multi-Brand Retail & Distribution</p>
-    <button>View Products</button>
-  </div>
+<div>
+<h1>Premium Home & Commercial Cooling Equipment</h1>
+<p>Authorized Multi-Brand Retail & Distribution</p>
+<button>View Products</button>
+</div>
 </section>
 
-<!-- VOLTAS BRAND STRIP -->
-
+<!-- BRAND STRIP -->
 <section class="brand-strip">
-  <img src="assets/voltas-logo.png" alt="Voltas">
-  <span>Authorized Voltas AC Partner</span>
+<img src="assets/voltas-logo.png">
+<span>Authorized Voltas AC Partner</span>
 </section>
 
-<!-- PRODUCTS -->
-
-<section class="categories">
-
+<!-- PRODUCT CATEGORIES -->
 <h2 class="section-title">Our Product Categories</h2>
 
 <div class="category-grid">
 
 <div class="category-card">
-<img src="assets/split-ac.jpg" alt="Split AC">
-<h3>Split Air Conditioners</h3>
+<img src="assets/split-ac.jpg">
+<h3>Split AC</h3>
 <button onclick="openPopup('Split AC')">Enquiry</button>
 </div>
 
 <div class="category-card">
-<img src="assets/deep-freezer.jpg" alt="Deep Freezer">
-<h3>Deep Freezers</h3>
+<img src="assets/deep-freezer.jpg">
+<h3>Deep Freezer</h3>
 <button onclick="openPopup('Deep Freezer')">Enquiry</button>
 </div>
 
 <div class="category-card">
-<img src="assets/water-cooler.jpg" alt="Water Cooler">
-<h3>Water Coolers</h3>
+<img src="assets/water-cooler.jpg">
+<h3>Water Cooler</h3>
 <button onclick="openPopup('Water Cooler')">Enquiry</button>
 </div>
 
 <div class="category-card">
-<img src="assets/refrigerator.jpg" alt="Refrigerator">
-<h3>Refrigerators</h3>
+<img src="assets/refrigerator.jpg">
+<h3>Refrigerator</h3>
 <button onclick="openPopup('Refrigerator')">Enquiry</button>
 </div>
 
 <div class="category-card">
-<img src="assets/display-cooler.jpg" alt="Display Cooler">
-<h3>Display Coolers</h3>
+<img src="assets/display-cooler.jpg">
+<h3>Display Cooler</h3>
 <button onclick="openPopup('Display Cooler')">Enquiry</button>
 </div>
 
 <div class="category-card">
-<img src="assets/washing-machine.jpg" alt="Washing Machine">
-<h3>Washing Machines</h3>
+<img src="assets/washing-machine.jpg">
+<h3>Washing Machine</h3>
 <button onclick="openPopup('Washing Machine')">Enquiry</button>
 </div>
 
 </div>
 
-</section>
-
+<!-- COMMERCIAL -->
 <section class="commercial">
-
 <h2 class="section-title">Commercial Cooling Equipment</h2>
 
 <div class="commercial-grid">
 
-<div class="commercial-card">
-<h3>Visi Coolers</h3>
-<p>Perfect for beverage display in retail stores.</p>
-</div>
-
-<div class="commercial-card">
-<h3>Deep Freezers</h3>
-<p>Reliable freezing solutions for food storage.</p>
-</div>
-
-<div class="commercial-card">
-<h3>Display Refrigerators</h3>
-<p>Ideal for supermarkets and cafes.</p>
-</div>
-
-<div class="commercial-card">
-<h3>Water Coolers</h3>
-<p>High capacity cooling for offices and industries.</p>
-</div>
-
-<div class="commercial-card">
-<h3>Bottle Coolers</h3>
-<p>Fast cooling for beverages and drinks.</p>
-</div>
-
-<div class="commercial-card">
-<h3>Ice Machines</h3>
-<p>Commercial ice production for restaurants.</p>
-</div>
+<div class="commercial-card">Visi Coolers</div>
+<div class="commercial-card">Deep Freezers</div>
+<div class="commercial-card">Display Refrigerators</div>
+<div class="commercial-card">Water Coolers</div>
+<div class="commercial-card">Bottle Coolers</div>
+<div class="commercial-card">Ice Machines</div>
 
 </div>
-
 </section>
 
 <!-- FOOTER -->
-
 <footer>
-<p>© 2026 Synergy Refrigeration</p>
+© 2026 Synergy Refrigeration
 </footer>
 
-<!-- WHATSAPP FLOAT BUTTON -->
-
+<!-- WHATSAPP -->
 <a class="whatsapp" href="https://wa.me/918490022110" target="_blank">WhatsApp</a>
 
-  <div id="enquiryPopup" class="popup">
-  <div class="popup-box">
-    <h3 id="popupTitle">Product Enquiry</h3>
-    <p>Contact us on WhatsApp for latest price.</p>
-    <a id="whatsappBtn" href="#" target="_blank">Chat on WhatsApp</a>
-    <button onclick="closePopup()">Close</button>
-  </div>
-</div>
-  
 <script>
 function openPopup(product){
-  document.getElementById("enquiryPopup").style.display="flex";
-  document.getElementById("popupTitle").innerText = product;
-
-  var phone = "918490022110";
-  var message = "Hello, I want price for " + product;
-  var url = "https://wa.me/" + phone + "?text=" + encodeURIComponent(message);
-
-  document.getElementById("whatsappBtn").href = url;
-}
-
-function closePopup(){
-  document.getElementById("enquiryPopup").style.display="none";
+var phone = "918490022110";
+var message = "Hello, I want price for " + product;
+window.open("https://wa.me/" + phone + "?text=" + encodeURIComponent(message));
 }
 </script>
+
 </body>
 </html>
