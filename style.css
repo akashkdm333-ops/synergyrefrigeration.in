@@ -27,31 +27,25 @@ align-items:center;
 justify-content:center;
 text-align:center;
 color:white;
-background:
+
+background-image:
 linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
 url("assets/hero.png");
+
 background-size:cover;
 background-position:center;
-padding:100px 20px;
+background-repeat:no-repeat;
 }
 
-.hero h1{
-font-size:42px;
-margin-bottom:10px;
+@media (max-width: 768px){
+
+.hero{
+background-size: contain !important;
+background-position: center top !important;
+background-repeat: no-repeat !important;
+min-height: 380px;
 }
 
-.hero p{
-font-size:18px;
-}
-
-.hero button{
-margin-top:20px;
-padding:14px 28px;
-background:#0077ff;
-border:none;
-color:white;
-border-radius:8px;
-cursor:pointer;
 }
 
 /* ===== BRAND STRIP ===== */
