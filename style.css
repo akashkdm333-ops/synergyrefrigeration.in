@@ -290,3 +290,14 @@ font-size:14px;
 }
 
 }
+
+@media (max-width: 768px){
+
+.hero{
+background-size: contain;   /* pura image dikhega */
+background-repeat: no-repeat;
+background-position: center top;
+min-height: 350px;
+}
+
+}
