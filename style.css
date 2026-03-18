@@ -21,7 +21,7 @@ box-shadow:0 2px 12px rgba(0,0,0,0.06);
 /* ===== HERO ===== */
 
 .hero{
-min-height:600px;
+min-height:700px;
 display:flex;
 align-items:center;
 justify-content:center;
