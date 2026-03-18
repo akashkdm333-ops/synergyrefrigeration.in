@@ -202,22 +202,24 @@ font-size:28px;
 
 }
 
-nav{
-display:flex;
-justify-content:center;   /* center */
-align-items:center;
-padding:18px 0;
+/* ===== FORCE LOGO CENTER FIX ===== */
+
+.navbar{
+display:flex !important;
+justify-content:center !important;
+align-items:center !important;
+padding:20px 0 !important;
 }
 
 .logo-center{
-display:flex;
-justify-content:center;
-align-items:center;
-width:100%;
+width:100% !important;
+display:flex !important;
+justify-content:center !important;
 }
 
 .logo-center img{
-height:65px;   /* thoda bada (perfect) */
-width:auto;
-object-fit:contain;
+height:65px !important;
+width:auto !important;
+display:block;
+margin:auto;
 }
