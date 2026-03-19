@@ -269,3 +269,16 @@ font-size:14px;
 }
 
 }
+
+.hero{
+height:auto;
+}
+
+.hero-img{
+height:auto;
+object-fit:contain;  /* mobile perfect */
+}
+
+.hero-content{
+padding:10px;
+}
