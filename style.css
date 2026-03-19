@@ -269,15 +269,3 @@ font-size:14px;
 }
 
 }
-@media (max-width:768px){
-
-.hero{
-height:auto;
-}
-
-.hero-img{
-height:auto;
-object-fit:contain;  /* mobile perfect */
-}
-
-}
