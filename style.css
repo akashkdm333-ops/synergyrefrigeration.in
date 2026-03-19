@@ -55,10 +55,14 @@ object-fit:cover;
 
 /* CONTENT */
 .hero-content{
-position:relative;         /* CHANGE THIS */
-z-index:2;
+position:absolute;              /* IMPORTANT */
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
 text-align:center;
 color:white;
+width:100%;
+z-index:2;
 }
 
 @media (max-width:768px){
@@ -72,4 +76,23 @@ height:auto;
 object-fit:contain;
 }
 
+}
+
+.hero-content h1{
+font-size:42px;
+margin-bottom:15px;
+}
+
+.hero-content p{
+font-size:18px;
+margin-bottom:20px;
+}
+
+.hero-content button{
+padding:12px 25px;
+border:none;
+background:#0077ff;
+color:white;
+border-radius:6px;
+cursor:pointer;
 }
