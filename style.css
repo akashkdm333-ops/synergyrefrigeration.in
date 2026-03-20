@@ -197,3 +197,32 @@ height:60px;
 }
 
 }
+
+.commercial-grid{
+grid-template-columns:1fr;
+}
+
+}
+
+/* ===== COMMERCIAL FIX ===== */
+
+.commercial{
+padding:60px 20px;
+max-width:1200px;
+margin:auto;   /* CENTER FIX */
+}
+
+.commercial-grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:20px;
+}
+
+.commercial-card{
+background:white;
+padding:15px;
+border-radius:10px;
+box-shadow:0 4px 15px rgba(0,0,0,0.08);
+text-align:center;
+font-size:14px;
+}
