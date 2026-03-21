@@ -35,9 +35,13 @@ object-fit:cover;
 }
 
 .hero-content{
-position:relative;
-color:#fff;
+position:absolute;
+top:35%;   /* 🔥 yaha control hai */
+left:50%;
+transform:translate(-50%, -50%);
 text-align:center;
+color:white;
+width:90%;
 }
 
 /* GRID */
