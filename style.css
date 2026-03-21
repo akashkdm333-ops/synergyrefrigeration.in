@@ -143,7 +143,7 @@ object-fit:contain;
 /* TEXT FIX */
 .hero-content{
 position:absolute;
-top:35%;   /* mobile ke liye best */
+top:25%;   /* mobile ke liye best */
 left:50%;
 transform:translate(-50%,-50%);
 width:90%;
