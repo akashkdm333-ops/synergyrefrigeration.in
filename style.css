@@ -36,7 +36,7 @@ object-fit:cover;
 
 .hero-content{
 position:absolute;
-top:35%;   /* 🔥 yaha control hai */
+top:28%;   /* 🔥 yaha control hai */
 left:50%;
 transform:translate(-50%, -50%);
 text-align:center;
@@ -127,25 +127,35 @@ text-decoration:none;
 grid-template-columns:1fr;
 }
 
+/* HERO FIX */
 .hero{
 height:auto;
-padding:0;
+display:block;   /* ❗ flex hatao mobile me */
 }
 
 .hero-img{
 position:relative;
 width:100%;
 height:auto;
-display:block;
 object-fit:contain;
 }
 
+/* TEXT FIX */
 .hero-content{
 position:absolute;
-top:50%;
+top:35%;   /* mobile ke liye best */
 left:50%;
 transform:translate(-50%,-50%);
 width:90%;
+}
+
+.hero-content h1{
+font-size:22px;
+line-height:1.3;
+}
+
+.hero-content p{
+font-size:14px;
 }
 
 }
