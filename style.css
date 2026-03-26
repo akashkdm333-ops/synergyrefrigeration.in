@@ -77,15 +77,15 @@ margin-top:40px;
 .commercial-grid{
 display:grid;
 grid-template-columns:repeat(3,1fr);
-gap:110px;
+gap:130px;
 max-width:1100px;
 margin:auto;
-padding:30px;
+padding:20px;
 }
 
 .commercial-card{
 background:#fff;
-padding:20px;
+padding:50px;
 text-align:center;
 border-radius:10px;
 }
