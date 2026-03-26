@@ -92,7 +92,7 @@ border-radius:10px;
 
 .commercial-card img{
 width:100%;
-height:150px;
+height:100%;
 object-fit:contain;
 margin-bottom:10px;
 }
