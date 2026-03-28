@@ -97,6 +97,10 @@ object-fit:contain;
 margin-bottom:20px;
 }
 
+.section-title{
+text-align:center;
+margin-top:40px;
+
 /* BUTTON */
 button{
 background:#0077ff;
