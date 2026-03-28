@@ -70,7 +70,7 @@ object-fit:contain;
 
 .section-title{
 text-align:center;
-margin-top:40px;
+margin-top:20px;
 }
 
 /* COMMERCIAL */
@@ -96,10 +96,6 @@ height:100%;
 object-fit:contain;
 margin-bottom:20px;
 }
-
-.section-title{
-text-align:center;
-margin-top:40px;
 
 /* BUTTON */
 button{
