@@ -98,6 +98,15 @@ object-fit:contain;
 margin-bottom:15px;
 }
 
+.commercial-card{
+transition:0.3s;
+}
+
+.commercial-card:hover{
+transform:translateY(-5px);
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
 /* BUTTON */
 button{
 background:#0077ff;
