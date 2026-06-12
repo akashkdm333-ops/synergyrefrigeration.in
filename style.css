@@ -5,17 +5,17 @@ background:#f6f8fb;
 }
 
 /* NAVBAR */
+/* STICKY NAVBAR */
 .navbar{
+    position:sticky;
+    top:0;
+    z-index:9999;
     background:#fff;
     display:flex;
     justify-content:space-between;
     align-items:center;
     padding:15px 40px;
-    box-shadow:0 2px 10px rgba(0,0,0,0.05);
-}
-
-.logo{
-    height:80px;
+    box-shadow:0 2px 15px rgba(0,0,0,0.08);
 }
 
 .nav-links{
@@ -30,11 +30,31 @@ background:#f6f8fb;
     text-decoration:none;
     color:#222;
     font-weight:500;
-    transition:.3s;
+    transition:0.3s;
 }
 
 .nav-links a:hover{
     color:#0077ff;
+}
+
+/* Mobile */
+@media(max-width:768px){
+
+.navbar{
+    flex-direction:column;
+    padding:10px;
+}
+
+.logo{
+    height:60px;
+}
+
+.nav-links{
+    gap:15px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
 }
 
 /* HERO SLIDER */
