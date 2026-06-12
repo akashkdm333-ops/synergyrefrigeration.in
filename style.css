@@ -6,13 +6,35 @@ background:#f6f8fb;
 
 /* NAVBAR */
 .navbar{
-background:#fff;
-text-align:center;
-padding:15px;
+    background:#fff;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 40px;
+    box-shadow:0 2px 10px rgba(0,0,0,0.05);
 }
 
 .logo{
-height:250px;
+    height:80px;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+    gap:30px;
+    margin:0;
+    padding:0;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:#222;
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-links a:hover{
+    color:#0077ff;
 }
 
 /* HERO SLIDER */
@@ -75,8 +97,22 @@ right:15px;
 
 /* mobile */
 @media(max-width:768px){
-.hero-slider{
-height:60vh;
+
+.navbar{
+    flex-direction:column;
+    padding:10px;
+}
+
+.logo{
+    height:60px;
+}
+
+.nav-links{
+    gap:15px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
 }
 
 .slide img{
