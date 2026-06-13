@@ -22,7 +22,7 @@ body{
 }
 
 .logo{
-    height:150px;
+    height:200px;
     width:auto;
     display:block;
 }
@@ -253,7 +253,7 @@ footer{
     }
 
     .logo{
-    height:200px !important;
+    height:100px !important;
 }
 
     .nav-links{
