@@ -253,8 +253,8 @@ footer{
     }
 
     .logo{
-        height:140px;
-    }
+    height:300px !important;
+}
 
     .nav-links{
         gap:15px;
