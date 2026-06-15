@@ -11,3 +11,7 @@ function scrollToProducts(){
 }
 
 console.log("Synergy site loaded");
+
+function toggleMenu() {
+    document.querySelector(".nav-links").classList.toggle("active");
+}
