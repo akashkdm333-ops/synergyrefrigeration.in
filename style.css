@@ -17,8 +17,8 @@ body{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:10px 30px;   /* 15px 40px se kam */
-    min-height:80px;     /* add karo */
+    padding:5px 20px;   /* 15px 40px se kam */
+    min-height:70px;     /* add karo */
 }
 
 .logo{
