@@ -19,8 +19,8 @@
         <img src="assets/logo.png" alt="Synergy Enterprises" class="logo">
     </div>
 
-    <div class="menu-toggle" onclick="toggleMenu()">
-    ☰
+    <div class="menu-toggle" onclick="openMenu()">
+☰
 </div>
 
 <ul class="nav-links">
@@ -31,6 +31,17 @@
 </ul>
     
 </nav>
+
+<div id="mobileMenu" class="mobile-menu">
+
+    <span class="close-btn" onclick="closeMenu()">✕</span>
+
+    <a href="#home" onclick="closeMenu()">Home</a>
+    <a href="#products" onclick="closeMenu()">Products</a>
+    <a href="#commercial" onclick="closeMenu()">Commercial</a>
+    <a href="#contact" onclick="closeMenu()">Contact</a>
+
+</div>
 
 <section class="hero-slider" id="home">
 
