@@ -244,24 +244,31 @@ footer{
     z-index:999;
 }
 
-/* MOBILE */
+.menu-toggle{
+    display:none;
+    font-size:30px;
+    cursor:pointer;
+}
+
 @media(max-width:768px){
 
-    .navbar{
-    min-height:80px;
-    padding:10px 30px;
+.menu-toggle{
+    display:block;
 }
 
-    .logo{
-    height:90px !important;
+.nav-links{
+    display:none;
+    flex-direction:column;
+    width:100%;
+    text-align:center;
+    margin-top:10px;
 }
 
-    .nav-links{
-        gap:15px;
-        flex-wrap:wrap;
-        justify-content:center;
-        margin-top:10px;
-    }
+.nav-links.active{
+    display:flex;
+}
+
+}
 
     .hero-slider{
         height:60vh;
