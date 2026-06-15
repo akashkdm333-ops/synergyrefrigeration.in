@@ -15,3 +15,11 @@ console.log("Synergy site loaded");
 function toggleMenu() {
     document.querySelector(".nav-links").classList.toggle("active");
 }
+
+function openMenu(){
+    document.getElementById("mobileMenu").classList.add("active");
+}
+
+function closeMenu(){
+    document.getElementById("mobileMenu").classList.remove("active");
+}
