@@ -386,7 +386,7 @@ footer{
 
 .contact-section{
     padding:60px 20px;
-    background:#fff;
+    background:#000000;
 }
 
 .contact-container{
@@ -395,7 +395,7 @@ footer{
 }
 
 .contact-info{
-    background:#000000;
+    background:#ffffff;
     padding:30px;
     border-radius:12px;
     text-align:center;
