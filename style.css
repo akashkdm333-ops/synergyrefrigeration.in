@@ -227,7 +227,7 @@ footer{
     background:#111;
     color:#fff;
     text-align:center;
-    padding:20px 10px;
+    padding:15px;
     font-size:14px;
     margin-top:40px;
 }
@@ -385,6 +385,8 @@ footer{
 
 }
 
+/* CONTACT SECTION */
+
 .contact-section{
     padding:80px 40px;
     background:#f8f9fb;
@@ -394,9 +396,9 @@ footer{
     max-width:1200px;
     margin:auto;
     display:grid;
-    grid-template-columns:400px 1fr;
-    gap:40px;
-    align-items:stretch;
+    grid-template-columns:380px 1fr;
+    gap:30px;
+    align-items:start;
 }
 
 .contact-card{
@@ -408,7 +410,7 @@ footer{
 
 .contact-card h3{
     margin-top:0;
-    font-size:30px;
+    font-size:32px;
     margin-bottom:25px;
 }
 
@@ -429,6 +431,10 @@ footer{
     font-weight:600;
 }
 
+.direction-btn:hover{
+    background:#005fd4;
+}
+
 .map-box iframe{
     width:100%;
     height:450px;
@@ -437,23 +443,33 @@ footer{
     box-shadow:0 10px 30px rgba(0,0,0,0.08);
 }
 
+/* MOBILE */
+
 @media(max-width:768px){
 
-.map-box iframe{
-    min-height:300px;
-}
+    .contact-section{
+        padding:50px 20px;
+    }
 
-.contact-wrapper{
-    max-width:1200px;
-    margin:auto;
-    display:grid;
-    grid-template-columns:350px 1fr;
-    gap:30px;
-    align-items:start;
-}
+    .contact-wrapper{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
 
-.contact-card{
-    padding:25px;
-}
+    .contact-card{
+        padding:25px;
+    }
+
+    .contact-card h3{
+        font-size:26px;
+    }
+
+    .contact-card p{
+        font-size:16px;
+    }
+
+    .map-box iframe{
+        height:300px;
+    }
 
 }
