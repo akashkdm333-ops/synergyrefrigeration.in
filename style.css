@@ -22,7 +22,7 @@ body{
 }
 
 .logo{
-    height:90px;
+    height:120px;
     width:auto;
 }
 
@@ -193,7 +193,10 @@ button{
 }
 
 .contact-card{
-    width:100%;
+    background:#fff;
+    padding:35px;
+    border-radius:20px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
 }
 
 .contact-card h3{
