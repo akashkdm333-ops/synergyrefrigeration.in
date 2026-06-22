@@ -332,3 +332,27 @@ footer{
 }
 
 }
+
+.split-grid{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    flex-wrap:wrap;
+    max-width:900px;
+    margin:0 auto 50px;
+}
+
+.split-grid .category-card{
+    width:320px;
+}
+
+@media(max-width:768px){
+    .split-grid{
+        gap:20px;
+    }
+
+    .split-grid .category-card{
+        width:100%;
+        max-width:350px;
+    }
+}
