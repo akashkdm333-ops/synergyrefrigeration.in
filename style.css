@@ -251,7 +251,8 @@ footer{
     }
 
     .logo{
-        height:180px;
+        height:70px;
+        width:auto;
     }
 
     .menu-toggle{
