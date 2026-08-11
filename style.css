@@ -311,7 +311,7 @@ footer{
 
 .brands-grid img{
     width:100%;
-    max-height:80px;
+    max-height:90px;
     object-fit:contain;
     filter:grayscale(0%);
     transition:0.3s;
